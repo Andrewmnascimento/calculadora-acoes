@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora de Preço Justo de Ações</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora do Preço Justo das Ações.</h1>
+        <div class="peheader"><p>Com Base no Lucro por ação e no Valor Patrimonial por ação, podemos ver qual o preço justo e se esta compensando comprar</p></div>
+    </header>
+    <main>
+        <div class="main-container">
+            <p>LPA</p>
+            <input type="number" name="Parametros" id="lpa">
+            <p>VPA</p>
+            <input type="number" name="Parametros" id="vpa">
+            <p>Preço atual</p>
+            <!--pca é Preço Justo Atual-->
+            <input type="number" name="preco" id="pca"> 
+            <div class="botao"><button onclick="calcularPrecoJusto()">Calcular</button></div>
+            <!--pj é Preço Justo e paec é Preço atual esta compensamdo?-->
+            <p id="pj"></p>
+            <p id="paec"></p>
+        </div>
+    </main>
+    <footer>
+        <p>Essa Calculadora é baseada nos estudos de Benjamin Graham, para mais informações procure sobre o livro <em>O Investidor Inteligente</em>.</p>
+        <p>&reg; 2025 Todos os Direitos Reservados <br> HarperCollins Brasil</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

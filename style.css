@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+*{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-size: normal;
+    background-color: antiquewhite;
+    color: #163B50;
+    border-radius: 10px;
+}
+header{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.pheader{
+    margin-top: 0.5rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    justify-items: center;
+    align-items: center;
+    display: grid;
+}
+.botao{
+    margin: 1rem;
+    justify-self: center;
+}
+footer{
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 1;
+    place-items: center;
+}
